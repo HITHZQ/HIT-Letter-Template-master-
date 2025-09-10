@@ -17,7 +17,7 @@ NENU's recommendation letter template.
 ![GitHub License](https://img.shields.io/github/license/leungll/NENU-Letter-Template?color=green)
 
 ## 示例
-![NENU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/NENU-Letter.png) | ![CMU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/CMU-Letter.png)
+![HIT-Letter](https://github.com/HITHZQ/HIT-Letter-Template-master-/blob/main/HIT-Letter-Template-master%20-/sample/hit.png) | ![CMU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/CMU-Letter.png)
 ---|---
 
 ## 特性
