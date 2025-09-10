@@ -33,20 +33,14 @@ HIT's recommendation letter template.
 - 注意使用 `\\` 进行换行
 
 ## 如何编译
-### 方式 1 ：在线编译
-- 打开 [Overleaf](https://www.overleaf.com/latex/templates/nenu-letter-template/fvqdkcyhnbsv) 链接
-- `Open as Template`
-- 编辑你的内容
-- 编译
-- 下载 PDF
 
-### 方式 2 ：本地编译
+### 方式：本地编译
 - 安装 Tex 本地环境: https://www.latex-project.org/get
 - 下载此项目: `git clone https://github.com/leungll/NENU-Letter-Template.git`
 - 运行: `pdftex`
 
 ## 参考
-- [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
+- [NENU-Letter-Template](https://github.com/leungll/NENU-Letter-Template)
 - [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 
 ---
