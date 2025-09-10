@@ -43,7 +43,7 @@ HIT's recommendation letter template.
 ### 方式 2 ：本地编译
 - 安装 Tex 本地环境: https://www.latex-project.org/get
 - 下载此项目: `git clone https://github.com/leungll/NENU-Letter-Template.git`
-- 运行: `pdflatex main`
+- 运行: `pdftex main`
 
 ## 参考
 - [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
