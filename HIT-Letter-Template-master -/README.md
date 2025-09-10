@@ -10,9 +10,7 @@ HIT's recommendation letter template.
 
 哈尔滨工业大学推荐信模板
 
-![Author](https://github.com/HITHZQ)
-![GitHub last commit](https://img.shields.io/github/last-commit/leungll/NENU-Letter-Template?color=yellow)
-![GitHub repo size](https://img.shields.io/github/repo-size/leungll/NENU-Letter-Template)
+![Author](https://img.shields.io/badge/Author-HITHZQ-red)
 ![Static Badge](https://img.shields.io/badge/language-latex-orange)
 ![GitHub License](https://img.shields.io/github/license/leungll/NENU-Letter-Template?color=green)
 
