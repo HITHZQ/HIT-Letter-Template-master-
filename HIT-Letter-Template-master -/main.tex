@@ -1,0 +1,59 @@
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{eso-pic}
+\usepackage[export]{adjustbox}
+\usepackage{xcolor}
+
+\hypersetup{hidelinks}
+\geometry{top=0.7in, bottom=1in, left=1in, right=1in}
+
+% If you don't need a picture background for the letter, you can remove this code
+\newcommand\BackgroundPicture{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering\includegraphics[width=0.4\paperwidth,height=0.4\paperheight,keepaspectratio]{pic/shuiyin.jpg} % Change your logo
+            \vfill
+        }
+    }
+}
+\AddToShipoutPicture{\BackgroundPicture}
+
+\begin{document}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=3.2in]{pic/1.png}\\ % Change your logo
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.6\textwidth}\raggedright
+        \small{ 
+            \hphantom{AA}Room XXX, XXX Building \\ % Change your address
+            \hphantom{AA}School of XXX \\
+            \hphantom{AA}Harbin Institute of Technology \\
+            \hphantom{AA}No.92 Xida Street, Nangang District \\
+            \hphantom{AA}Harbin, Heilongjiang, P. R. China, 150001\\
+        }
+    \end{minipage}
+
+    \vspace{0.4in} % Increase distance
+
+    \today
+
+    \textbf{Recommendation Letter for Ms. XXX}
+
+    Dear Admissions Committee:\\
+
+    \input{letterContent} % Refer to letterContent.tex
+
+    Sincerely yours,
+
+    \includegraphics[width=2in]{pic/emp.png} % Please sign your name(可以更换为电子签名)
+
+    xxx, Professor \\ % Change your personal information
+    School of xxx \\
+    Harbin Institute of Technology \\
+    Phone/Fax: xxx \\ 
+    Email: \href{mailto:xxx@nenu.edu.cn}{xxx@hit.edu.cn} \\
+    Website: \url{https://homepage.hit.edu.cn/xxx} \\%更换邮箱地址
+\end{document}
